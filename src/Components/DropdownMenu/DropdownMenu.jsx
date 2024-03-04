@@ -48,8 +48,8 @@ const DropdownMenu = () => {
                 <ul>
                     <li className="dropdownItem"><img src={user1} alt="" /><a href="#">My Profile</a></li>
                     <li className="dropdownItem"><img src={edit} alt="" /><a href="#">Edit Profile</a></li>
-                    <li className="dropdownItem"><img src={inbox} alt="" /><a href="">My Inbox</a></li>
-                    <li className="dropdownItem"><img src={settings} alt="" /><a href="">Setting</a></li>
+                    <li className="dropdownItem"><img src={inbox} alt="" /><a href="">Inbox</a></li>
+                    <li className="dropdownItem"><img src={settings} alt="" /><a href="">Settings</a></li>
                     <li className="dropdownItem"><img src={help} alt="" /><a href="">Helps</a></li>
                     <li className="dropdownItem"><img src={logout} alt="" /><a href="">Logout</a></li>
                 </ul>
