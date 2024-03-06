@@ -28,6 +28,10 @@ const DropdownMenu = () => {
       };
   
       document.addEventListener("mousedown", handler);
+
+      // It is useEffect so I should write a cleanup code so that when the user 
+      // quit the page then the addEventListener will be automatically switched off
+      // by document.removeEventListener("mousedown", handler); return .
       
       return() =>{
         document.removeEventListener("mousedown", handler);
